@@ -1,0 +1,93 @@
+[
+    {
+        "playerId": 1,
+        "name": "Virat Kohli",
+        "country": "India",
+        "image": "https://i.ibb.co.com/LQMRJWw/Virat-Kohli.jpg",
+        "role": "Batsman",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Right-arm medium",
+        "biddingPrice": 18000
+    },
+    {
+        "playerId": 2,
+        "name": "Ben Stokes",
+        "country": "England",
+        "image": "https://i.ibb.co.com/1XbWVss/Ben-Stokes.jpg",
+        "role": "All-rounder",
+        "battingType": "Left-hand bat",
+        "bowlingType": "Right medium fast",
+        "biddingPrice": 19000
+    },
+    {
+        "playerId": 3,
+        "name": "Kane Williamson",
+        "country": "New Zealand",
+        "image": "https://i.ibb.co.com/W5QdB1d/kane-williamson.jpg",
+        "role": "Batsman",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Right-arm offbreak",
+        "biddingPrice": 16000
+    },
+    {
+        "playerId": 4,
+        "name": "Pat Cummins",
+        "country": "Australia",
+        "image": "https://i.ibb.co.com/4pgQDtf/1703857419374-Pat-Cummins.jpg",
+        "role": "Bowler",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Right-arm fast",
+        "biddingPrice": 17500
+    },
+    {
+        "playerId": 5,
+        "name": "Babar Azam",
+        "country": "Pakistan",
+        "image": "https://i.ibb.co.com/1byjT0y/Untitled-design.jpg",
+        "role": "Batsman",
+        "battingType": "Right-hand bat",
+        "bowlingType": "None",
+        "biddingPrice": 18500
+    },
+    {
+        "playerId": 6,
+        "name": "Rashid Khan",
+        "country": "Afghanistan",
+        "image": "https://i.ibb.co.com/yXFV9Wz/Rashid.jpg",
+        "role": "Bowler",
+        "battingType": "Right-hand bat",
+        "bowlingType": "Right-arm legbreak",
+        "biddingPrice": 15000
+    },
+    {
+        "playerId": 7,
+        "name": "Quinton de Kock",
+        "country": "South Africa",
+        "image": "https://i.ibb.co.com/4M6GPDh/quinton-de-kock.jpg",
+        "role": "Wicketkeeper-Batsman",
+        "battingType": "Left-hand bat",
+        "bowlingType": "None",
+        "biddingPrice": 12000
+    },
+     
+    {
+        "playerId": 8,
+        "name": "Jos Buttler",
+        "country": "England",
+        "image": "https://i.ibb.co.com/gmvdZmq/Jos-Buttler.jpg",
+        "role": "Wicketkeeper-Batsman",
+        "battingType": "Right-hand bat",
+        "bowlingType": "None",
+        "biddingPrice": 17000
+    },
+    {
+        "playerId": 9,
+        "name": "David Warner",
+        "country": "Australia",
+        "image": "https://i.ibb.co.com/bvNrkyg/David-Warner-aus.jpg",
+        "role": "Batsman",
+        "battingType": "Left-hand bat",
+        "bowlingType": "Right-arm legbreak",
+        "biddingPrice": 16500
+    }
+]
