@@ -1,6 +1,6 @@
 import ShowPlayer from './ShowPlayer';
 
-const Select = ({palyer,handleDelete}) => {
+const Select = ({palyer,handleDelete,handleAddMorePlayer}) => {
     
      
     return (
@@ -8,7 +8,7 @@ const Select = ({palyer,handleDelete}) => {
             {
                palyer ? palyer.map(show=><ShowPlayer handleDelete={handleDelete} show={show}></ShowPlayer>) : ''
             }
-              <button  className='py-2 px-2 border rounded-lg font-bold bg-yellow-400'>Add More Player</button>
+              <button onClick={handleAddMorePlayer}  className='py-2 px-2 border rounded-lg font-bold bg-yellow-400'>Add More Player</button>
         </div>
     );
 };

@@ -12,6 +12,11 @@ function App() {
   const [freeCoin, setFreeCoin] = useState(0);
   const [palyer, setPalyer] = useState([]);
 
+
+  const handleAddMorePlayer =()=>{
+    setActiveButton('btn-1')
+  }
+
   const ClaimFreeCredit = ()=>{
      setFreeCoin((prevFreeCoin) => prevFreeCoin + 50000)
      toast.success('Credit Added to your Account',{position:"top-center"})
@@ -68,7 +73,7 @@ function App() {
               }`}>Selected (<span>{palyer.length}</span>)</button>
           </div>
        </div>
-       {activeButton === 'btn-1' ? <Posts specificPlayerInfo={specificPlayerInfo} /> : <Select palyer={palyer} handleDelete={handleDelete} />}
+       {activeButton === 'btn-1' ? <Posts specificPlayerInfo={specificPlayerInfo} /> : <Select palyer={palyer} handleDelete={handleDelete} handleAddMorePlayer={handleAddMorePlayer} />}
        <Footer></Footer>
     </>
   )
