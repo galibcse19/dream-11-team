@@ -2,7 +2,7 @@ import React from 'react';
 import coverImg from "../assets/bg-shadow.png"
 import coverMain from "../assets/banner-main.png"
 
-const Cover = () => {
+const Cover = ({ClaimFreeCredit}) => {
     return (
         <div className='lg:mx-40 md:mx-10 mx-2 mt-6'>
             <div
@@ -19,7 +19,7 @@ const Cover = () => {
                     <p className="mb-5">
                     Beyond Boundaries Beyond Limits
                     </p>
-                    <button className="btn bg-yellow-400">Claim Free Credit</button>
+                    <button onClick={ClaimFreeCredit} className="btn bg-yellow-400">Claim Free Credit</button>
                 </div>
             </div>
             </div>

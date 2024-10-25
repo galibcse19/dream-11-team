@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from "../assets/logo.png"
 import coinImg from "../assets/coin.jpg"
 
-const Nav = () => {
+const Nav = ({value}) => {
+  
     const links = <>
        <li><a>Home</a></li>
        <li><a>Fixture</a></li>
@@ -34,7 +35,7 @@ const Nav = () => {
                      {links}
                      <button>
                     <div className='flex justify-center align-center'>
-                        <div className='mt-1 font-bold'>0</div>
+                        <div className='mt-1 font-bold'><span>{value}</span></div>
                         <div className='mt-1 ml-1 mr-2 font-bold'>Coin</div>
                         <img className='w-8' src={coinImg} alt="" />
                     </div>
@@ -53,7 +54,7 @@ const Nav = () => {
                 {/* <button><span>0</span>Coin <img className='w-10' src={coinImg} alt="" /></button> */}
                 <button className='px-4 py-2 border rounded-lg'>
                     <div className='flex justify-center align-center'>
-                        <div className='mt-1 font-bold'>0</div>
+                        <div className='mt-1 font-bold'><span>{value}</span></div>
                         <div className='mt-1 ml-1 mr-2 font-bold'>Coin</div>
                         <img className='w-8' src={coinImg} alt="" />
                     </div>

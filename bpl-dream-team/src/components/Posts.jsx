@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Post from './Post';
 
-const Posts = () => {
+const Posts = ({specificPlayerInfo}) => {
     const [posts, setPosts] = useState([]);
     useEffect(()=>{
         fetch('data.json')
@@ -13,7 +13,7 @@ const Posts = () => {
         <div className='lg:mx-40 md:mx-10 mx-2 mt-16 mb-32 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5'>
             {/* <div>Posts: {posts.length}</div> */}
             {
-                posts.map(post => <Post post={post} key={post.playerId}></Post> )
+                posts.map(post => <Post post={post} specificPlayerInfo={specificPlayerInfo} key={post.playerId}></Post> )
             }
         </div>
     );

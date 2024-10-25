@@ -89,5 +89,15 @@
         "battingType": "Left-hand bat",
         "bowlingType": "Right-arm legbreak",
         "biddingPrice": 16500
+    },
+    {
+       "playerId": 10,
+        "name": "Quinton de Kock",
+        "country": "South Africa",
+        "image": "https://i.ibb.co.com/4M6GPDh/quinton-de-kock.jpg",
+        "role": "Wicketkeeper-Batsman",
+        "battingType": "Left-hand bat",
+        "bowlingType": "None",
+        "biddingPrice": 12000 
     }
 ]

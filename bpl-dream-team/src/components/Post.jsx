@@ -2,12 +2,12 @@ import React from 'react';
 import { CgProfile } from "react-icons/cg";
 import { FaFlag } from "react-icons/fa6";
 
-const Post = ({post}) => {
-    console.log(post);
+const Post = ({post,specificPlayerInfo}) => {
+    // console.log(post);
     const {country,name,image,role,battingType,bowlingType,biddingPrice}= post;
     return (
         <div>
-           <div className="card glass w-96">
+           <div className="card glass lg:w-96 md:w-92 w-80">
              <div className='p-4'>
                 <img className='w-full h-48 border rounded-lg' src={image} alt="" />
                 <div className='flex mt-4'>
@@ -40,7 +40,7 @@ const Post = ({post}) => {
                         <div className='ml-4 text-xl font-bold'>Price: ${biddingPrice}</div>
                     </div>
                     <div className='mt-4'>
-                        <button className='border rounded-lg px-2 py-1'>Choose Player</button>
+                        <button onClick={()=>specificPlayerInfo(post)} className='border rounded-lg px-2 py-1  hover:bg-yellow-400'>Choose Player</button>
                     </div>
                 </div>
              </div>
